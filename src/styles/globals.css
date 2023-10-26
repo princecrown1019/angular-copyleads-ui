@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --margin-bottom: 0px;
+    --transition: 0.3s ease;
+    --gap: 10px;
+
+    --header-height: 3rem;
+    --nav-width: 70px;
+
+    /*===== Colors =====*/
+    --first-color: #020009;
+    --first-color-light: #d8d8d8;
+    --white-color: #F7F6FB;
+
+    /*===== Font and typography =====*/
+    --body-font: 'Nunito', sans-serif;
+    --normal-font-size: 1rem;
+
+    /*===== z index =====*/
+    --z-fixed: 100;
+}
+
+.bg-logo {
+    background: radial-gradient(80.57% 256.15% at 50% 50%,
+            #434b54 0%,
+            rgba(67, 75, 84, 0) 100%)
+}

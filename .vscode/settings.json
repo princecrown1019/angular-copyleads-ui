@@ -1,0 +1,16 @@
+{
+    "tabnine.experimentalAutoImports": true,
+    "workbench.iconTheme": "vscode-icons",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.colorTheme": "Visual Studio Dark",
+    "editor.accessibilitySupport": "off",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "json.schemas": [
+
+        {
+            "fileMatch": ["/src/data/*"],
+            "url": "/src/data/data.schema.json"
+        }
+    ]
+}
